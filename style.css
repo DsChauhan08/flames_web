@@ -7,7 +7,62 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden; /* Hide overflow to prevent scroll during loading */
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8b949e; /* Light gray for labels */
+}
+
+input {
+    padding: 15px;
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #30363d; /* Dark border */
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #3080e8; /* Gumroad blue for buttons */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2575d0;
+}
+
+#result {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
 }
 
 .loader-container {
@@ -29,7 +84,7 @@ body {
     background-color: #3080e8; /* Gumroad blue for loader */
     border-radius: 50%;
     position: relative;
-    animation: pulse 1s infinite ;
+    animation: pulse 1s infinite;
 }
 
 .heart-loader::before,
