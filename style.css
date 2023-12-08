@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #0d1117;
     color: #c9d1d9;
     margin: 0;
@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+    font-family: 'Poppins', sans-serif;
     background-color: #161b22;
     padding: 20px;
     border-radius: 8px;
@@ -38,7 +39,8 @@ input {
 
 button {
     padding: 10px;
-    background-color: #28a745; /* GitHub green for buttons */
+    font-family: 'Poppins', sans-serif;
+    background-color: #4c51bf; /* GitHub purple for buttons */
     color: #ffffff;
     border: none;
     cursor: pointer;
@@ -46,10 +48,11 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #4338ca;
 }
 
 #result {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
