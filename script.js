@@ -8,6 +8,11 @@ function calculateFlames(name1, name2) {
     (processedName1 + processedName2).split("").forEach(letter => {
         letterCount[letter] = (letterCount[letter] || 0) + 1;
     });
+document.addEventListener("DOMContentLoaded", function () {
+    // Hide the loader when the content is fully loaded
+    var loaderContainer = document.querySelector(".loader-container");
+    loaderContainer.style.display = "none";
+});
 
     // Count the number of common letters
     const commonLetters = Object.values(letterCount).filter(count => count % 2 === 1).length;
