@@ -29,7 +29,7 @@ body {
     background-color: #3080e8; /* Gumroad blue for loader */
     border-radius: 50%;
     position: relative;
-    animation: pulse 1s infinite;
+    animation: pulse 2s ;
 }
 
 .heart-loader::before,
